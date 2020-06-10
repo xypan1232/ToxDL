@@ -1,0 +1,40 @@
+################
+### Testfile ###
+################
+
+##################################
+
+dataset                 --- Generated - my_bp_GO_0006468_1000UP
+type                    --- C
+maxLength               --- 1002
+
+ngramsize               --- 1
+embeddingDepth          --- 15
+embeddingType           --- onehot
+
+filterSizes             --- [9, 7, 7]
+filterAmounts           --- [200, 200, 200]
+maxPoolSizes            --- [3, 3, 3]
+sizeOfFCLayers          --- 64
+GRUSize                 --- 128
+
+###################################
+
+testPartDiv                     --- 8
+batchsize                       --- 64
+start_learning_rate             --- 0.001
+epochs                          --- 10
+update                          --- adam
+
+###################################
+
+dropout                 --- 0.5
+validFunction           --- loss
+
+dynMaxPoolSize          --- 10
+
+hierarchy               --- False
+ppi_vectors             --- True
+l1reg                   --- 0.0
+
+lossFunction            --- default
