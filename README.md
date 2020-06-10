@@ -27,7 +27,7 @@ Linux: Ubuntu 16.04
 
 # Demo
 You can directly  run the commend to run ToxDL model on animal training, validaiton and test set by running: <br>
-``` python DimiG.py``` 
+``` python ToxDL.py``` 
 <br>
 The above command will output performance metrics in F1-score, MCC, auROC and auPRC for 10 running and the average performance of ToxDL for the 10 running.
 You can also specity the hyperparamters by modifying the file "TestFiles/000_test.test"<br>
