@@ -9,7 +9,7 @@ In this study, we develop an interpretable deep learning-based method, ToxDL, to
 python              3.5 <br>
 TensorFlow          1.12.0 <br>
 tensorboard         1.12.2 <br>
-cikit-learn         0.21.3 <br>
+scikit-learn         0.21.3 <br>
 scipy               1.3.1 <br>
 numpy               1.17.1 <br>
 pandas              0.24.2 <br>
