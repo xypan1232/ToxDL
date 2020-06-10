@@ -87,9 +87,9 @@ def run():
         sess.close()
         tf.reset_default_graph()
         results.append([auROC, auPRC, F1score, MCC])
-    print('auROC', 'auPRC', 'F1socre', 'MCC')
+    print('auROC, ', 'auPRC, ', 'F1socre, ', 'MCC')
     print(results)
-    print('Mean results of 10 runnning')
+    print('Mean results, auROC, auPRC, F1socre, MCC, of 10 runnning')
     print(np.mean(results, axis=0))
     ### build saliency map
     #pdb.set_trace()
