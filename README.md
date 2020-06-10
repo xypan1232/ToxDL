@@ -35,4 +35,4 @@ The trained model is saved at the directory parameters/. <br>
 The output file is saved at the directory predictions/. <br>
 
 # Web service
-You can also predict toxicity score for new proteins using the online web service at http://www.csbio.sjtu.edu.cn/bioinf/ToxDL/, the backend model is retrained on the combination set of train and validation set. <br>
+You can also predict toxicity score for new proteins using the online web service at http://www.csbio.sjtu.edu.cn/bioinf/ToxDL/. <br>
