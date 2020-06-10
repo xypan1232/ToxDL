@@ -83,11 +83,13 @@ def run():
     print('>>> TRAINING NETWORK...')
     results = []
     for i in range(10):
-        sess, trainset, testset, auROC, auPRC, F1score, mcc = runTest(NETWORK_SETTINGS_FILE, datafiles_tuple)
+        sess, trainset, testset, auROC, auPRC, F1score, MCC = runTest(NETWORK_SETTINGS_FILE, datafiles_tuple)
         sess.close()
         tf.reset_default_graph()
-        results.append([auROC, auPRC, F1score, mcc])
+        results.append([auROC, auPRC, F1score, MCC])
+    print('auROC', 'auPRC', 'F1socre', 'MCC')
     print(results)
+    print('Mean results of 10 runnning')
     print(np.mean(results, axis=0))
     ### build saliency map
     #pdb.set_trace()
