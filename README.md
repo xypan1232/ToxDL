@@ -4,6 +4,7 @@ The process of developing genetically engineered (GE) food crops involves introd
 In this study, we develop an interpretable deep learning-based method, ToxDL, to classify toxic proteins from non-toxic proteins using sequences alone. There are two main components in the multi-modal ToxDL. The first component is based on CNNs, in which sequences are encoded in one-hot matrix, which is fed into a CNN. The second component is a multilayer perceptron with domain information. The domains are first scanned from protein sequences using InterProscan. Instead of using high-dimensional one-hot encoding, domains of proteins are encoded in embeddings learned by word2vec, which is fed into a fully connected layer together with feature maps from the CNN.
 <br>
 <br>
+
 # Dependency:
 python              3.5 <br>
 TensorFlow          1.12.0 <br>
