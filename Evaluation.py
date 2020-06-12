@@ -1,4 +1,4 @@
-__author__ = 'jasper.zuallaert'
+__author__ = 'jasper.zuallaert and Xiaoyong Pan'
 from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import average_precision_score, roc_auc_score
 from sklearn.metrics import f1_score, precision_recall_curve, matthews_corrcoef
