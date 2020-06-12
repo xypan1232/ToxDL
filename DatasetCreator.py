@@ -1,4 +1,4 @@
-__author__ = 'jasper.zuallaert'
+__author__ = 'jasper.zuallaert, Xiaoyong.Pan'
 from GO_Graph_Builder import get_all_children_for_term
 from random import shuffle
 
