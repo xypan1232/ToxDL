@@ -26,7 +26,7 @@ This package is supported for *Linux* operating systems. The package has been te
 Linux: Ubuntu 16.04  
 
 # Demo
-You first make empty directory "parameters/" and "predictions/", then directly  run the commend to run ToxDL model on animal training, validaiton and test set by running: <br>
+You first make empty directory "parameters/" and "predictions/", then directly  run the below command to run ToxDL model on animal training, validaiton and test set by running: <br>
 ``` python ToxDL.py``` 
 <br>
 The above command will output performance metrics in F1-score, MCC, auROC and auPRC for 10 running and the average performance of ToxDL for the 10 running. <br>
