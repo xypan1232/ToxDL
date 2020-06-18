@@ -26,13 +26,13 @@ This package is supported for *Linux* operating systems. The package has been te
 Linux: Ubuntu 16.04  
 
 # Demo
-You can directly  run the commend to run ToxDL model on animal training, validaiton and test set by running: <br>
+You first make empty directory "parameters/" and "predictions/", then directly  run the commend to run ToxDL model on animal training, validaiton and test set by running: <br>
 ``` python ToxDL.py``` 
 <br>
 The above command will output performance metrics in F1-score, MCC, auROC and auPRC for 10 running and the average performance of ToxDL for the 10 running. <br>
 You can also specity the hyperparamters by modifying the file "TestFiles/000_test.test"<br>
-The trained model is saved at the directory parameters/. <br>
-The output file is saved at the directory predictions/. <br>
+The trained model is saved at the directory "parameters/". <br>
+The output file is saved at the directory "predictions/". <br>
 
 # Web service
 You can also predict toxicity score for new proteins using the online web service at http://www.csbio.sjtu.edu.cn/bioinf/ToxDL/. <br>
