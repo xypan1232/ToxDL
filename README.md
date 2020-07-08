@@ -26,6 +26,7 @@ This package is supported for *Linux* operating systems. The package has been te
 Linux: Ubuntu 16.04  
 
 # Demo
+## ToxDL
 You first make empty directory "parameters/" and "predictions/", then directly  run the below command to run ToxDL model on animal training, validaiton and test set by running: <br>
 ``` python ToxDL.py``` 
 <br>
@@ -33,6 +34,32 @@ The above command will output performance metrics in F1-score, MCC, auROC and au
 You can also specity the hyperparamters by modifying the file "TestFiles/000_test.test"<br>
 The trained model is saved at the directory "parameters/". <br>
 The output file is saved at the directory "predictions/". <br>
+
+## ToxDL-CNN
+To run ToxDL-CNN, the setting "ppi_vectors" in the file "TestFiles/000_test.test" need be changed to False, then run the below command: <br>
+``` python ToxDL.py``` 
+<br>
+The outputs and models are saved in the samw way as ToxDL
+
+## ToxDL-ODE
+To run ToxDL-ODE, the setting "type" in the file "TestFiles/000_test.test" need be changed to be "P", then run the below command: <br>
+``` python ToxDL.py``` 
+<br>
+The outputs and models are saved in the samw way as ToxDL
+
+## ToxDL-OD
+To run ToxDL-OD, the same setting file "TestFiles/000_test.test" as ToxDL is used, then run the below command: <br>
+``` python ToxDL-OD.py``` 
+<br>
+The outputs and models are saved in the same way as ToxDL
+
+## ToxDL-One
+To run ToxDL-One, the setting "type" in the file "TestFiles/000_test.test" need be changed to be "P", then run the below command: <br>
+``` python ToxDL-OD.py``` 
+<br>
+The outputs and models are saved in the samw way as ToxDL
+
+
 
 # Web service
 You can also predict toxicity score for new proteins using the online web service at http://www.csbio.sjtu.edu.cn/bioinf/ToxDL/. <br>
