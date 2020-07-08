@@ -39,13 +39,13 @@ The output file is saved at the directory "predictions/". <br>
 To run ToxDL-CNN, the setting "ppi_vectors" in the file "TestFiles/000_test.test" need be changed to False, then run the below command: <br>
 ``` python ToxDL.py``` 
 <br>
-The outputs and models are saved in the samw way as ToxDL
+The outputs and models are saved in the same way as ToxDL
 
 ## ToxDL-ODE
 To run ToxDL-ODE, the setting "type" in the file "TestFiles/000_test.test" need be changed to be "P", then run the below command: <br>
 ``` python ToxDL.py``` 
 <br>
-The outputs and models are saved in the samw way as ToxDL
+The outputs and models are saved in the same way as ToxDL
 
 ## ToxDL-OD
 To run ToxDL-OD, the same setting file "TestFiles/000_test.test" as ToxDL is used, then run the below command: <br>
@@ -57,7 +57,7 @@ The outputs and models are saved in the same way as ToxDL
 To run ToxDL-One, the setting "type" in the file "TestFiles/000_test.test" need be changed to be "P", then run the below command: <br>
 ``` python ToxDL-OD.py``` 
 <br>
-The outputs and models are saved in the samw way as ToxDL
+The outputs and models are saved in the same way as ToxDL
 
 
 
