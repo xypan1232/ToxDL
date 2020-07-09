@@ -26,7 +26,7 @@ This package is supported for *Linux* operating systems. The package has been te
 Linux: Ubuntu 16.04  
 
 # Demo
-ToxDL, ToxDL-CNN and ToxDL-ODE use the same script with different settings in the file "TestFiles/000_test.test". ToxDL-OD and ToxDL-One use the same script with different settings in the file "TestFiles/000_test.test".
+ToxDL, ToxDL-CNN and ToxDL-ODE use the same script with different settings in the file "TestFiles/000_test.test". ToxDL-OD and ToxDL-One use the same script with different settings in the file "TestFiles/000_test.test". Since one-hot encoding is 269-D, thus 256 for domain embedding in the some py files should be changed to 269.
 ## ToxDL
 You first make empty directory "parameters/" and "predictions/", then directly  run the below command to run ToxDL model on animal training, validaiton and test set by running: <br>
 ``` python ToxDL.py``` 
