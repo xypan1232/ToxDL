@@ -37,7 +37,7 @@ The trained model is saved at the directory "parameters/". <br>
 The output file is saved at the directory "predictions/". <br>
 
 ## ToxDL-CNN
-To run ToxDL-CNN, the setting "ppi_vectors" in the file "TestFiles/000_test.test" need be changed to False, then run the below command: <br>
+To run ToxDL-CNN, the setting "ppi_vectors" for domain embedding in the file "TestFiles/000_test.test" need be changed to False, then run the below command: <br>
 ``` python ToxDL.py``` 
 <br>
 The outputs and models are saved in the same way as ToxDL
